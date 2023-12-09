@@ -1,0 +1,39 @@
+.container {
+  width: 13rem;
+  height: 10rem;
+  background-color: #f1ecec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: var(--message);
+}
+
+.name {
+  margin-top: 0.3rem;
+  text-align: start;
+  width: 100%;
+  margin-left: 0.8rem;
+}
+
+.expand {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  padding-bottom: 0.3rem;
+}
+
+.price {
+  color: #f60f0f;
+  padding-left: 0.4rem;
+}
+
+.sell {
+  padding-right: 0.4rem;
+}

@@ -1,0 +1,18 @@
+.container {
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  margin-right: 0.3rem;
+}
+
+.required {
+  color: #f60f0f;
+}

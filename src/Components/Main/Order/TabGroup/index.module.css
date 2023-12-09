@@ -1,0 +1,28 @@
+.container {
+  padding-top: 1.2rem;
+  display: flex;
+}
+
+.greenButton {
+  background-color: #2da323;
+  width: 10.5rem;
+  margin-right: 0.5rem;
+}
+
+.greenButton:hover {
+  background-color: #175111;
+}
+
+.grayButton {
+  background-color: #c1c1c1;
+  width: 10.5rem;
+  margin-right: 0.5rem;
+}
+
+.grayButton:hover {
+  background-color: #767474;
+}
+
+.isChoseText {
+  color: white;
+}

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerCenter {
+  max-width: 50rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.avatar {
+  background-color: #efefef;
+}
+
+.detail {
+  background-color: #efefef;
+  padding: 2.56rem 0.56rem 0.69rem 0.56rem;
+  margin-left: 1.13rem;
+  margin-top: 0;
+  width: 100%;
+}

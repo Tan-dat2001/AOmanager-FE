@@ -1,0 +1,63 @@
+:root {
+  --blue-0: #f4f6f7;
+  --blue-10: #9bdafb;
+  --blue-20: #47a0de;
+  --blue-30: #1d55ae;
+  --blue-40: #041f68;
+  --blue-55: #000032;
+  --yellow: #eee689;
+  --white: #ffffff;
+  --gray-10: #f5f5f5;
+  --gray-15: #e7e7e7;
+  --gray-20: #cccccc;
+  --gray-30: #c1c1c1;
+  --gray-35: #9f9f9f;
+  --gray-40: #767676;
+  --black: #000000;
+  --text-primary: #333333;
+  --text-secondary: #acacac;
+  --text-link: #2f73dd;
+  --text-attention: #de2e63;
+  --text-attention-hover: #f5628e;
+  --message: #dae9f8;
+  --selected-tab: #17448b;
+  --switch-button: #8eaad7;
+  --transparent-gray: #76767666;
+  --transparent-black: #00000080;
+  --transparent-white: #ffffffcc;
+  --linear-light-start: #209edd;
+  --linear-light-end: #0262bd;
+  --linear-dark-start: #306bc9;
+  --linear-dark-end: #0b2a80;
+  --transparent: #00000000;
+  --header-background: #919fb7;
+  --linear-light-start-hover: #47b4e8;
+  --linear-light-end-hover: #4395d5;
+  --linear-dark-start-hover: #4e81d1;
+  --linear-dark-end-hover: #3c5eaa;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: var(--gray-10);
+  color: var(--text-primary);
+}
+
+body {
+  background-color: var(--gray-10);
+  color: var(--text-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+.infinite-scroll-component__outerdiv {
+  width: 100%;
+}

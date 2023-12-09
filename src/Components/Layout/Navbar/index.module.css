@@ -1,0 +1,13 @@
+.container {
+  background-color: #e7ebef;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}

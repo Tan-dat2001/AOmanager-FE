@@ -1,0 +1,19 @@
+.container {
+  background-color: #e8e8e8;
+  padding: 1.44rem 1.37rem;
+  margin-top: 1rem;
+}
+
+.button {
+  background-color: #2da323;
+  margin-right: 0.5rem;
+  justify-content: flex-end;
+}
+
+.button:hover {
+  background-color: #103a0d;
+}
+
+.text {
+  color: white;
+}

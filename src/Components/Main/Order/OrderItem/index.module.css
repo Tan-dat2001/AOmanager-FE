@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.5fr 0.5fr;
+  background-color: #e8e8e8;
+  padding: 0.8rem 0;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+
+.container:hover {
+  background-color: var(--message);
+}
+
+.text {
+  margin-left: 0.5rem;
+}
+
+.textButton {
+  color: white;
+}
+
+.detailButton {
+  background-color: #79b5cf;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.detailButton:hover {
+  background-color: #456674;
+}
+
+.cancelButton {
+  background-color: #cf4f57;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.cancelButton:hover {
+  background-color: #732e32;
+}

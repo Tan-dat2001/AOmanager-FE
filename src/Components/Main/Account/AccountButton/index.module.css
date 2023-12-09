@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.94rem;
+}
+
+.textButton {
+  color: white;
+}
+
+.changePasswordButton {
+  background-color: #c64747;
+}
+
+.changePasswordButton:hover {
+  background-color: #612323;
+}
+
+.updateUserButton {
+  background-color: #308e20;
+  margin-left: 0.87rem;
+}
+
+.updateUserButton:hover {
+  background-color: #143c0d;
+}
