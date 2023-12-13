@@ -1,7 +1,7 @@
 import { Carousel } from "@mantine/carousel";
 import Image from "next/image";
 
-export function CarouselBannerItem({src}:{src:string}) {
+export function CarouselBannerItem({ src }:{src:string}) {
   return (
     <Carousel.Slide>
       <Image
